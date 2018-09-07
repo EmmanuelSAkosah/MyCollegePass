@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:background="@color/OwlBlue"
+        android:layout_marginVertical="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/owl"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/business_name_BP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Molly's"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:background="@color/OwlBlue"
+        android:layout_marginVertical="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Type"/>
+    <TextView
+        android:id="@+id/business_type_BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:text="Restaurant"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/business_website_BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/OwlBlue"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:text="mollys.com"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Rank"/>
+    <TextView
+        android:id="@+id/business_rank_BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="#2"/>
+
+
+    <fragment
+        android:id="@+id/location_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:context=".BusinessPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       >
+    </fragment>
+
+</LinearLayout>

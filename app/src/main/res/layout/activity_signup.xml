@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/OwlBlue">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rectangular_textview"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Name"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:background="@drawable/rectangular_textview"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University Email"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+
+
+            <EditText
+                android:id="@+id/email_SU"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:background="@drawable/rectangular_textview"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/password_SU"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:background="@drawable/rectangular_textview"/>
+
+
+
+            <ImageButton
+                android:id="@+id/donut_SU"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/donutwithlogin"
+                android:scaleType="centerInside"
+                android:background="@null"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:text="- or -" />
+
+            <TextView
+                android:id="@+id/have_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:text="Already have an account?" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

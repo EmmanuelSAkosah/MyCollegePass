@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyCollegePass</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+    <!--Sign in Sign up -->
+    <string name="unregistered_text">Email or password is incorrect</string>
+    <string name="empty_email_password_warning">Email or password is incorrect</string>
+
+</resources>

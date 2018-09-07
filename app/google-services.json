@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "562414443142",
+    "firebase_url": "https://mycollegepass-fa5e1.firebaseio.com",
+    "project_id": "mycollegepass-fa5e1",
+    "storage_bucket": "mycollegepass-fa5e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562414443142:android:571adf245eab4a0e",
+        "android_client_info": {
+          "package_name": "com.mycollegepass.mycollegepass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562414443142-mgpssambubs76uogb0stmn5cc6uh75da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXkXvlyhhW1hWEDppPw-SU2w5DUS2nFT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

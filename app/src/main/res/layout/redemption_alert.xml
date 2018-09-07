@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Redemption code:"/>
+    <TextView
+        android:id="@+id/redeem_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14FL785K"
+        android:textSize="20dp"/>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="5dp"
+        android:background="@color/OwlBlue"
+        android:layout_marginVertical="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/redemption_qr"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/qr_sample"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="5dp"
+        android:background="@color/OwlBlue"
+        android:layout_marginVertical="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions:"/>
+    <TextView
+        android:id="@+id/terms_and_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This discount only applies to donuts on Tuesdays"/>
+
+</LinearLayout>
